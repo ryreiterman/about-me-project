@@ -104,6 +104,24 @@ a {
   box-shadow: 3px 3px 5px grey;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: #f2f2f2;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.social-icons {
+flex-flow: column;
+}
+
+.social-icons img {
+  padding: .5em;
+}
+
 /*
 ===============
 Navbar
@@ -206,4 +224,8 @@ nav {
     background: transparent;
   }
 
+  footer {
+    flex-direction: row;
+    align-items: baseline;
+  }
     }
