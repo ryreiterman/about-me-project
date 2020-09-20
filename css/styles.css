@@ -13,8 +13,6 @@ body {
   background-color: #d9d9d9;
 }
 
-
-
 a {
   text-decoration: none;
 }
@@ -25,15 +23,18 @@ img {
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .item {
   background-color: #fff;
   padding: 1em;
   box-shadow: 2px 2px 5px #8c8c8c;
-  flex-grow: 1;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .profile-pic {
@@ -51,8 +52,7 @@ img {
 }
 
 .resume {
-  display: flex;
-  flex-direction: column;
+
   border: 1px solid grey;
   border-radius: .3em;
   background-color: #fff;
@@ -91,7 +91,7 @@ img {
 @media screen and (min-width: 1000px) {
 
 .about {
-  
+
 }
 
 }
