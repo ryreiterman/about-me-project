@@ -32,7 +32,7 @@ a {
 .logo {
   height: 200px;
   border-radius: 50%;
-  border: 2px solid grey;
+  border: 2px solid #f2f2f2;
 }
 
 
@@ -40,11 +40,12 @@ a {
   border: 1px solid grey;
   border-radius: .3em;
   padding: 1em;
-
+  box-shadow: 3px 3px 5px grey;
 }
 
 .hobbies {
   grid-area: hobbies;
+
 }
 
 .bio {
@@ -64,7 +65,7 @@ a {
 }
 
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   justify-content: center;
   margin: 2em auto 0;
@@ -82,14 +83,28 @@ a {
   text-align: center;
 }
 
+.hobbies-list {
+  list-style-type: square;
+}
+
+.hero-image {
+  background-image: url("../images/xmas_card_1500.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .3em;
+}
+
 /*
 ===============
 Navbar
 ===============
 */
 nav {
-  background: var(--clr-white);
+  background-color: #999;
   box-shadow: var(--light-shadow);
+  border-radius: .3em;
 }
 .nav-header {
   display: flex;
@@ -111,7 +126,7 @@ nav {
 }
 
 .links a {
-  color: var(--clr-grey-3);
+  color: #f2f2f2;
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
