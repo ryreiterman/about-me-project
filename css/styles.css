@@ -33,7 +33,7 @@ img {
   background-color: #fff;
   padding: 1em;
   box-shadow: 2px 2px 5px #8c8c8c;
-  max-width: 600px;
+  flex-grow: 1;
 }
 
 .profile-pic {
@@ -44,7 +44,6 @@ img {
 .hobbies {
   text-align: center;
   border-top: 2px solid grey;
-  margin-top: 1em;
 }
 
 .about, .resume {
@@ -52,10 +51,11 @@ img {
 }
 
 .resume {
+  display: flex;
+  flex-direction: column;
   border: 1px solid grey;
   border-radius: .3em;
   background-color: #fff;
-  max-width: 800px;
 }
 
 .resume-header {
