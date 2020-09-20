@@ -1,0 +1,103 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1em;
+  background-color: #d9d9d9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: #fff;
+  padding: 1em;
+  box-shadow: 2px 2px 5px #8c8c8c;
+  max-width: 500px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #8c8c8c;
+}
+
+.hobbies {
+  text-align: center;
+  border-top: 2px solid grey;
+  margin-top: 1em;
+}
+
+.about, .resume {
+  margin-top: 2em;
+}
+
+.resume {
+  border: 1px solid grey;
+  border-radius: .3em;
+  background-color: #fff;
+  max-width: 600px;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+li {
+  list-style-type: square;
+}
+
+/* ====== media ====== */
+.media {
+  margin:10px;
+  padding: 1em;
+
+}
+.media, .bd {
+  overflow:hidden;
+  _overflow:visible;
+  zoom:1;
+}
+
+.media .img {
+  float:left;
+  margin-right: 2em;
+}
+
+.media .img img {
+  display:block;
+}
+
+.media .imgExt {
+  float:right;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+
+.about {
+  margin: 0 3em;
+}
+
+}
