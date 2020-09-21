@@ -38,21 +38,20 @@ a {
 
 .page-title {
   text-align: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #1d3557;
   padding: .3em;
   margin-bottom: .5em;
 }
 
 .hobbies, .bio, .contact {
-  border: 1px solid grey;
+  border: 1px solid #1d3557;
   border-radius: .3em;
   padding: 1em;
-  box-shadow: 3px 3px 5px grey;
+  box-shadow: 3px 3px 5px #1d3557;
 }
 
 .hobbies {
   grid-area: hobbies;
-
 }
 
 .bio {
@@ -101,7 +100,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: .3em;
-  box-shadow: 3px 3px 5px grey;
+  box-shadow: 3px 3px 5px #1d3557;
 }
 
 footer {
@@ -110,6 +109,8 @@ footer {
   align-items: center;
   flex-flow: column wrap;
   background-color: #f2f2f2;
+  border-radius: .3em;
+  border: 2px solid #457b9d;
   margin-top: 1em;
   padding: 1em;
 }
@@ -128,7 +129,7 @@ Navbar
 ===============
 */
 nav {
-  background-image: linear-gradient(#ccc, #fff);
+  background-color: #457b9d;
   box-shadow: var(--light-shadow);
   border-radius: .3em;
 }
@@ -152,7 +153,7 @@ nav {
 }
 
 .links a {
-  color: #0d0d0d;
+  color: #f2f2f2;
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -162,7 +163,7 @@ nav {
 }
 .links a:hover {
   background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  color: #e63946;
   padding-left: 1.5rem;
 }
 
